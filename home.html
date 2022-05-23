@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Sneakers</title>
+  </head>
+  <body>
+      <header>
+        <nav>
+          <div class="nav-container">
+            <div class="mini-nav">
+                <div class="hamburger">
+                  <div class="line top"></div>
+                  <div class="line middle"></div>
+                  <div class="line bottom"></div>
+                </div>
+                <div class=""><img class="logo" src="./images/logo.svg" alt=""></div>
+            </div>
+              <div class="menu-container">
+                <ul class="menu">
+                  <li><a class="li-items collection" href="#">Collection</a></li>
+                  <li><a class="li-items men" href="#">Men</a></li>
+                  <li><a class="li-items women" href="#">Women</a></li>
+                  <li><a class="li-items about" href="#">About</a></li>
+                  <li><a class="li-items contact" href="#">Contact</a></li>
+                </ul>
+              </div>
+            </div>
+          <div class="logo-plus">
+              <div class="cart-div"><a href="#" class="cart-value"><img class="cart" src="./images/icon-cart.svg"></a>
+              <span class="cart-number"></span>
+              </div>
+              <div><a href="#"><img class="profile-img" src="./images/image-avatar.png" alt=""></a>
+              </div>
+          </div>
+        </nav>
+        <hr class="nav-hr">
+        <div class="popup-cart hide-cart">
+          <h3 class="cart-title">Cart</h3>
+          <hr class="popup-hr">
+          <div class="item-checkout">
+            <div class="img-checkout"></div>
+            <span class="price-calc"></span>
+            <span class="total-price"></span>
+            <diva><a href="#"><img class="delete-icon" src="./images/icon-delete.svg"></a></div>
+            <button class="btn-checkout" type="button" name="button">Checkout</button>
+          </div>
+        </div>
+        <hr class="hr">
+      </header>
+      <main class="main">
+              <div class="product-imgs">
+                   <button class="prev-img"><</button>
+                   <button class="next-img">></button>
+                   <div class="choosen-img"><img src="./images/image-product-1.jpg"></div>
+                   <div class="gallery">
+                     <div class="img-all first"><a class="first-link" href="#"><img class="items" src="./images/image-product-1.jpg"></a></div>
+                     <div class="img-all second"><a class="second-link" href="#"><img class="items" src="./images/image-product-2.jpg"></a></div>
+                     <div class="img-all third"><a class="third-link" href="#"><img class="items" src="./images/image-product-3.jpg"></a></div>
+                     <div class="img-all fourth"><a class="fourth-link" href="#"><img class="items" src="./images/image-product-4.jpg"></a></div>
+                   </div>
+              </div>
+              <div class="product-info">
+                    <div class="sneakers">
+                        <h4 class="sneaker-sub-intro">Sneaker company</h4>
+                        <h2 class="sneaker-title">Fall Limited Edition Sneakers</h2>
+                        <p class="sneaker-text">These low-profile sneakers are your perfect casual wear companion.
+                           Featuring a durable rubber outer sole, they'll withstand
+                           everything the weather can offer.</p>
+                    </div>
+                    <div class="price">
+                      <div class="sub-price">
+                        <div class="current-price">$125.00</div>
+                        <div class="discount">50%</div>
+                      </div>
+                      <div class="prev-price">$250.00</div>
+                    </div>
+                    <div class="order">
+                        <div class="count">
+                          <div class="minus"><a href="javascript:void();">-</a></div>
+                          <div class="number">0</div>
+                          <div class="plus"><a href="javascript:void();">+</a></div>
+                        </div>
+                        <button class="btn" type="button" name="button">
+                           <img class="btn-img" src="./images/icon-cart.svg" alt="">Add to cart</button>
+                    </div>
+              </div>
+      </main>
+    <script type="text/javascript" src="index.js"></script>
+  </body>
+</html>
